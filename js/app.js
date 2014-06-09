@@ -22,6 +22,7 @@ function initialize() {
     var mapOptions = {
       zoom: 3,
       minZoom: 3,
+      scrollwheel: false,
       backgroundColor: 'gray',
       disableDefaultUI: true,
       zoomControl: true,

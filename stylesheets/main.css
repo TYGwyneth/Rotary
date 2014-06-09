@@ -1,6 +1,6 @@
 
 html{
-	font-family: Myriad Pro, Helvetica, Arial, sans serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	color: #000;
 }
@@ -11,7 +11,7 @@ body{
 
 h1{
 	font-family: "lavanderia_regular";
-	color: #ff7600;
+	color: #ec1b30;
 	font-size: 1em;
 }
 
@@ -87,9 +87,28 @@ li{
 }
 
 #logo {
-	padding-top: 20px;
+	padding-top: 15px;
 	font-weight: bold;
 	color: #005daa;
+}
+
+#header button {
+	position: absolute;
+	top: 14px;
+	right: 20px;
+	padding: 8px 15px;
+	background-color: transparent;
+	border: 2px solid #ec1b30;
+	border-radius: 40px;
+	text-decoration: none;
+	color: #ec1b30;
+	font-size: 0.5em;
+}
+
+#header button:hover {
+	cursor: pointer;
+	background-color: #ec1b30;
+	color: white;
 }
 
 #dropdown{
@@ -270,9 +289,13 @@ li{
 #instagramWrap {
 	position: absolute;
 	top: 700px;
-	background-color: blue;
+	background-color: #17458f;
 	height: 700px;
 	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 2em;
+	padding-top: 250px;
 }
 
 #twitterWrap {
@@ -280,7 +303,11 @@ li{
 	top: 1400px;
 	height: 700px;
 	width: 100%;
-	background-color: red;
+	background-color: #005daa;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 2em;
+	padding-top: 250px;
 }
 
 #toplistWrap {
@@ -288,5 +315,9 @@ li{
 	top: 2100px;
 	height: 700px;
 	width: 100%;
-	background-color: yellow;
+	background-color: #01b4e7;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 2em;
+	padding-top: 250px;
 }
